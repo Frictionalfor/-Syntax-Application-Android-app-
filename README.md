@@ -145,7 +145,7 @@ We welcome contributions! Whether it's fixing bugs, adding new syntax entries, o
 
 ## 👨‍💻 About the Developer
 
-**Swanand** is a programming language designer and developer with a passion for creative coding, metaphorical syntax, and community-driven tools. He’s the creator of **SOUTK**, a custom interpreted language that blends Pythonic elegance with C/C++-inspired rigor.
+**Frictionalfor** is a programming language designer and developer with a passion for creative coding, metaphorical syntax, and community-driven tools. He’s the creator of **SOUTK**, a custom interpreted language that blends Pythonic elegance with C/C++-inspired rigor.
 
 His work reflects a love for clarity, accessibility, and playful expression—whether through code, documentation, or design.
 
