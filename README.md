@@ -166,6 +166,111 @@ This project is licensed under the MIT License. See the [LICENSE](https://github
 - Hilt DI  
 - The developer community that inspires learning and sharing
 
+- ├── .gitignore
+├── README.md
+├── app
+    ├── .gitignore
+    ├── build.gradle.kts
+    ├── proguard-rules.pro
+    └── src
+    │   ├── androidTest
+    │       └── java
+    │       │   └── com
+    │       │       └── example
+    │       │           └── thesyntaxapplication
+    │       │               └── ExampleInstrumentedTest.kt
+    │   ├── main
+    │       ├── AndroidManifest.xml
+    │       ├── java
+    │       │   └── com
+    │       │   │   └── example
+    │       │   │       └── thesyntaxapplication
+    │       │   │           ├── MainActivity.kt
+    │       │   │           ├── SyntaxApplication.kt
+    │       │   │           ├── data
+    │       │   │               ├── DataInitializer.kt
+    │       │   │               ├── dao
+    │       │   │               │   ├── ProgrammingLanguageDao.kt
+    │       │   │               │   ├── SyntaxCategoryDao.kt
+    │       │   │               │   └── SyntaxEntryDao.kt
+    │       │   │               ├── database
+    │       │   │               │   └── SyntaxDatabase.kt
+    │       │   │               ├── model
+    │       │   │               │   ├── ProgrammingLanguage.kt
+    │       │   │               │   ├── SyntaxCategory.kt
+    │       │   │               │   └── SyntaxEntry.kt
+    │       │   │               └── repository
+    │       │   │               │   └── SyntaxRepository.kt
+    │       │   │           ├── di
+    │       │   │               └── DatabaseModule.kt
+    │       │   │           └── ui
+    │       │   │               ├── SyntaxApp.kt
+    │       │   │               ├── components
+    │       │   │                   └── SyntaxEntryCard.kt
+    │       │   │               ├── screens
+    │       │   │                   ├── CategoriesScreen.kt
+    │       │   │                   ├── EntriesScreen.kt
+    │       │   │                   ├── EntryDetailScreen.kt
+    │       │   │                   ├── FavoritesScreen.kt
+    │       │   │                   ├── HomeScreen.kt
+    │       │   │                   └── SearchScreen.kt
+    │       │   │               ├── state
+    │       │   │                   └── SyntaxUiState.kt
+    │       │   │               ├── theme
+    │       │   │                   ├── Color.kt
+    │       │   │                   ├── Theme.kt
+    │       │   │                   └── Type.kt
+    │       │   │               └── viewmodel
+    │       │   │                   └── SyntaxViewModel.kt
+    │       └── res
+    │       │   ├── drawable
+    │       │       ├── ic_launcher_background.xml
+    │       │       └── ic_launcher_foreground.xml
+    │       │   ├── mipmap-anydpi
+    │       │       ├── ic_launcher.xml
+    │       │       └── ic_launcher_round.xml
+    │       │   ├── mipmap-hdpi
+    │       │       ├── ic_launcher.webp
+    │       │       └── ic_launcher_round.webp
+    │       │   ├── mipmap-mdpi
+    │       │       ├── ic_launcher.webp
+    │       │       └── ic_launcher_round.webp
+    │       │   ├── mipmap-xhdpi
+    │       │       ├── ic_launcher.webp
+    │       │       └── ic_launcher_round.webp
+    │       │   ├── mipmap-xxhdpi
+    │       │       ├── ic_launcher.webp
+    │       │       └── ic_launcher_round.webp
+    │       │   ├── mipmap-xxxhdpi
+    │       │       ├── ic_launcher.webp
+    │       │       └── ic_launcher_round.webp
+    │       │   ├── values-night
+    │       │       └── themes.xml
+    │       │   ├── values
+    │       │       ├── colors.xml
+    │       │       ├── strings.xml
+    │       │       └── themes.xml
+    │       │   └── xml
+    │       │       ├── backup_rules.xml
+    │       │       └── data_extraction_rules.xml
+    │   └── test
+    │       └── java
+    │           └── com
+    │               └── example
+    │                   └── thesyntaxapplication
+    │                       └── ExampleUnitTest.kt
+├── build.gradle.kts
+├── gradle.properties
+├── gradle
+    ├── libs.versions.toml
+    └── wrapper
+    │   ├── gradle-wrapper.jar
+    │   └── gradle-wrapper.properties
+├── gradlew
+├── gradlew.bat
+└── settings.gradle.kts
+
+
 ---
 
 **The Syntax** — Making programming syntax intuitive, beautiful, and fun.  
